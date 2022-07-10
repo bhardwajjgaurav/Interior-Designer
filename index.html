@@ -2,8 +2,64 @@
 <html>
     <head>
         <title>Interior Design</title>
-        </head>
+        <link rel="stylesheet" href="main.css">
+    </head>
     <body>
+        <header>
+            <h1><a href="index.html" title="Interior Design"><img src="logo.png" alt="logo"></a></h1>
+            <nav>
+                <ul class="main-nav">
+                    <li>Home</li>
+                    <li>Packages</li>
+                    <li>About Us</li>
+                    <li>Products</li>
+                    <li>Contact Us</li>
+                </ul>
+            </nav>
+        </header>
+        <div class="cover">
+            <div class="intro">
+                <h1>Best Interior Designer in Banglore</h1>
+            </div>
+            <div class="get-estimate">
+                <div>
+                    <h2>Get an  Estimate</h2>
+                </div>
+                <div>
+                    <form action="/action_page.php" class="get-estimate-form">
+                        <input type="text" placeholder="Name" >
+                        <input type="email" placeholder="Email">
+                        <input type="tel" placeholder="Phone Number">
+                        <input type="text" placeholder="Property Name" >
+                        <select id="cars" name="budget">
+                            <option value="" disabled selected hidden>Estimated Budget</option>
+                            <option value="2 to 4 Lakhs">2 to 4 Lakhs</option>
+                            <option value="4 to 8 Lakhs">4 to 8 Lakhs</option>
+                            <option value="8 to 12 Lakhs">8 to 12 Lakhs</option>
+                            <option value="More Than 12 Lakhs">More Than 12 Lakhs</option>
+                        </select>
+                        <input type="submit" value="Book Online Consultation">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="project-container">
+            <h1>OUR INTERIOR DESIGN PROJECTS</h1>
+            <div class="projects">
+                <div class="project "><img src="project1.jpeg"> </div>
+                <div class="project "><img src="project2.jpeg"></div>
+                <div class="project "><img src="project3.jpeg"></div>
+                <div class="project "><img src="project4.jpeg"></div>
+                <div class="project "><img src="project5.jpeg"></div>
+                <div class="project "><img src="project6.jpeg"></div>
+            </div>
+           
+        </div>
+        <footer class="main-nav">
+            <p>Author: Example<br>
+            <a href="mailto:example@example.com">example@example.com</a></p>
+        </footer>
+
 
     </body>
 </html>
