@@ -9,6 +9,10 @@ header,footer {
     padding-right: 20px;
     color: whitesmoke;
 }
+.logo {
+    width:100%;
+max-width:200px;
+}
 nav {
     margin-left: auto;
 }
@@ -16,6 +20,17 @@ nav {
     display: flex;
     list-style: none;
     justify-content: right;
+}
+
+@media only screen and (max-width:617px) {
+    .main-nav {
+        font-size:0.65em;
+        padding: 0;
+    }
+    .logo {
+        width:55%;
+        min-width:100px;    
+    }
 }
 
 li {
