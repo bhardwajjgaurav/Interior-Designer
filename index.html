@@ -1,110 +1,167 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Interior Design</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <header>
-            <h1><a href="index.html" title="Interior Design"><img src="logo.png" alt="logo" class="logo"></a></h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Interior</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="container flex-container">
+            <!-- <h1 class="logo">Interior</h1> -->
+            <a href="#"><img src="images/logo.png" alt="logo" class="logo"></a>
             <nav>
-                <ul class="main-nav">
-                    <li>Home</li>
-                    <li>Packages</li>
-                    <li>About Us</li>
-                    <li>Products</li>
-                    <li>Contact Us</li>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
                 </ul>
             </nav>
-        </header>
-        <div class="cover">
-            <div class="intro">
+        </div>
+    </div>
+    <section class="cover">
+        <div class="container grid-container">
+            <div class="cover-teext">
                 <h1>Best Interior Designer in Banglore</h1>
+                <p>We offer everything that makes your home beautiful,
+                    comfortable and uniquely you, including end-to-end interior services including design,
+                    execution and personalized solutions
+                </p>
+                <a href="#" class="btn btn-outline">Get a Quote</a>
             </div>
-            <div class="get-estimate">
+            <div class="cover-form card">
+                <h2>Get an Estimate</h2>
+                <form>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="tel" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="property" placeholder="Property Name">
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="budget" placeholder="Estimated Budget">
+                    </div>
+                    <input type="submit" value="Book Consultation" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Services -->
+    <section class="services">
+        <div class="container">
+            <h2 class="services-heading text-center my-1">
+                Designing home with desire
+            </h2>
+            <h3 class="services-heading text-center my-1">
+                With stunning designs and professional on-site services, we make dream homes come alive.
+            </h3>
+            <div class="grid-container text-center my-4">
                 <div>
-                    <h2>Get an  Estimate</h2>
+                    <img src="images/livingroom.jpeg" alt="Living Room">
+                    <p class="text-secondary">Living Room</p>
                 </div>
                 <div>
-                    <form action="/action_page.php" class="get-estimate-form">
-                        <input type="text" placeholder="Name" >
-                        <input type="email" placeholder="Email">
-                        <input type="tel" placeholder="Phone Number">
-                        <input type="text" placeholder="Property Name" >
-                        <select id="cars" name="budget">
-                            <option value="" disabled selected hidden>Estimated Budget</option>
-                            <option value="2 to 4 Lakhs">2 to 4 Lakhs</option>
-                            <option value="4 to 8 Lakhs">4 to 8 Lakhs</option>
-                            <option value="8 to 12 Lakhs">8 to 12 Lakhs</option>
-                            <option value="More Than 12 Lakhs">More Than 12 Lakhs</option>
-                        </select>
-                        <input type="submit" value="Book Online Consultation">
-                    </form>
+                    <img src="images/diningroom.jpeg" alt="Dining Room">
+                    <p class="text-secondary">Dining Room</p>
+                </div>
+                <div>
+                    <img src="images/kitchen.jpeg" alt="Kitchen">
+                    <p class="text-secondary">Kitchen</p>
+                </div>
+                <div>
+                    <img src="images/bedroom.jpeg" alt="Bedroom">
+                    <p class="text-secondary">Bedroom</p>
                 </div>
             </div>
         </div>
-        <div class="project-container">
-            <h1>OUR INTERIOR DESIGN PROJECTS</h1>
-            <div class="projects">
-                <div class="project "><img src="project6.jpeg">
-                    <div class="overlay"></div>
-                    <div class="button"><a href="#"> SHOW MORE </a></div>
-                </div>
-                <div class="project "><img src="project2.jpeg">
-                    <div class="overlay"></div>
-                    <div class="button"><a href="#"> SHOW MORE </a></div>
-                </div>
-                <div class="project "><img src="project3.jpeg">
-                    <div class="overlay"></div>
-                    <div class="button"><a href="#"> SHOW MORE </a></div>
-                </div>
-                <div class="project "><img src="project4.jpeg">
-                    <div class="overlay"></div>
-                    <div class="button"><a href="#"> SHOW MORE </a></div>
-                </div>
-                <div class="project "><img src="project5.jpeg">
-                    <div class="overlay"></div>
-                    <div class="button"><a href="#"> SHOW MORE </a></div>
-                </div>
-                <div class="project "><img src="project6.jpeg">
-                    <div class="overlay"></div>
-                    <div class="button"><a href="#"> SHOW MORE </a></div>
-                </div>
-            </div>  
-        </div>
-        <div class="services-container">
-            <div class="services-header">
-                <h1>Designing home with desire</h1>
-                <h2>With stunning designs and professional on-site services, we make dream homes come alive.</h2>
+    </section>
+
+    <!-- Quote -->
+    <section class="quote bg-primary my-2 py-2">
+        <div class="container grid-container">
+            <div class="text-center">
+                <h2 class="lg">Best Interior Designer in Banglore</h2>
+                <p class="lead my-1">Interior Designing like you've never seen.
+                     Fast, efficient and affordable
+                </p>
+                <a href="#" class="btn btn-dark">Get a Quote</a>
             </div>
-            <div class="services">
-                <div class="service"><img src="livingroom.jpeg">
-                    <div>Living room</div>
-                </div>
-                <div class="service"><img src="diningroom.jpeg">
-                    <div>
-                        Dining room
-                    </div>
-                </div>
-                <div class="service"><img src="kitchen.jpeg">
-                    <div>
-                        Kitchen
-                    </div>
-                </div>
-                <div class="service"><img src="bedroom.jpeg">
-                    <div>
-                        Bedroom
-                    </div>
-                </div>
-            </div>
-
+            <!-- <img src="images/bed.png" alt="bed"> -->
         </div>
-        <footer class="main-nav">
-            <p>Author: Example<br>
-            <a href="mailto:example@example.com">example@example.com</a></p>
-        </footer>
+    </section>
 
+    <!-- Products -->
+    <section class="products">
+        <h2 class="md text-center my-2">OUR INTERIOR DESIGN PROJECTS</h2>
+        <div class="container flex-container">
+            <div class="card">
+                <img src="images/project1.jpeg" alt="">
+                <a href="#" class="btn btn-dark">Show More</a>
+            </div>
+            <div class="card">
+                <img src="images/project2.jpeg" alt="">
+                <a href="#" class="btn btn-dark">Show More</a>
+            </div>
+            <div class="card">
+                <img src="images/project3.jpeg" alt="">
+                <a href="#" class="btn btn-dark">Show More</a>
+            </div>
+            <div class="card">
+                <img src="images/project4.jpeg" alt="">
+                <a href="#" class="btn btn-dark">Show More</a>
+            </div>
+            <div class="card">
+                <img src="images/project5.jpeg" alt="">
+                <a href="#" class="btn btn-dark">Show More</a>
+            </div>
+            <div class="card">
+                <img src="images/project6.jpeg" alt="">
+                <a href="#" class="btn btn-dark">Show More</a>
+            </div>
+        </div>
+    </section>
 
-    </body>
+    <!-- Footer -->
+
+    <footer class="footer bg-dark py-5">
+        <div class="container grid-container grid-container-3">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h1>Interior Design</h1>
+                <p>copyright &copy; 2022</p>
+            </div>
+           
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+            </div>
+           
+        </div>
+    </footer>
+    
+</body>
 </html>
