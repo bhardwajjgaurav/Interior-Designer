@@ -207,7 +207,10 @@ img {
     .cover {
         height: auto;
     }
-
+    .cover-text {
+        text-align: center;
+        margin: 10px;
+    }
     .cover-form {
         justify-self: center;
         margin: auto;
