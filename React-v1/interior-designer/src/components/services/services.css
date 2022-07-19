@@ -1,0 +1,13 @@
+.services {
+    padding-top: 200px;
+}
+
+.services .grid-container {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.services .grid-container p {
+    font-size: 20px;
+    font-weight: bold;
+}

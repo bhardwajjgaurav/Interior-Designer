@@ -1,13 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* Default */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont,'Montserrat',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+    color: #264228;
+    line-height: 1.6;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  list-style-type: none;
 }
+
+a {
+  text-decoration: none;
+  color: #264228;
+}
+
+h1, h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+/* Tablets */
+
+@media(max-width:768px) {
+  .grid-container,
+  .cover .grid-container,
+  .services .grid-container,
+  .quote .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+  }
+  .cover {
+      height: auto;
+  }
+  .cover-text {
+      text-align: center;
+      margin: 10px;
+  }
+  .cover-form {
+      justify-self: center;
+      margin: auto;
+  }
+
+}
+
+/* phones */
+
+@media(max-width:500px) {
+  .nav-bar {
+      height: 260px;
+  }
+  .nav-bar .flex-container {
+      flex-direction: column;  
+  }
+  .nav-bar ul {
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+

@@ -1,0 +1,10 @@
+.products .flex-container {
+    flex-wrap: wrap;
+}
+
+.products .card {
+    text-align: center;
+    margin: 18px 10px 40px;
+    max-width: 300px;
+    width: 100%;
+}

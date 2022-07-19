@@ -1,0 +1,23 @@
+.nav-bar {
+    background-color: #4fa3a5;
+    color: white;
+    height: 210px;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar a {
+    color: white;
+    padding: 10px 10px 10px 0;
+    margin: 0 5px 0 0;
+}
+
+.nav-bar a:hover {
+    border-bottom: 1px white solid;
+}
+
+.nav-bar .flex-container {
+    justify-content: space-between;
+}

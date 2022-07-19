@@ -1,0 +1,46 @@
+.cover {
+    height: 400px;
+    background-color: #4fa3a5;
+    color: white;
+    position: relative;
+}
+.cover h1 {
+    font-size: 40px;
+}
+
+.cover p {
+    margin: 20px 0;
+}
+
+.cover .grid-container {
+    overflow: visible;
+    grid-template-columns: 60% 40%;
+    gap: 30px;
+}
+
+.cover-form {
+    position: relative;
+    top: 60px;
+    height:450px;
+    width: 400px;
+    padding: 40px;
+    z-index: 100;
+}
+
+.cover-form .form-control {
+    margin: 30px 0;
+}
+
+.cover-form input[type='text'],
+.cover-form input[type='email'],
+.cover-form input[type='tel'] {
+    border: 0;
+    border-bottom: 0.5px solid #264228;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.cover-form input {
+    outline: none;
+}

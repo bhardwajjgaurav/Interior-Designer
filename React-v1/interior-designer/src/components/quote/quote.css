@@ -1,0 +1,11 @@
+.quote .grid-container {
+    grid-template-columns: 1fr;
+    
+}
+.quote {
+    background-image: url('interior1.jpeg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
